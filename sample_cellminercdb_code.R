@@ -1,5 +1,5 @@
 # Small Code 
-# Return correlation (for eval_to_text)
+# Return matrix dimensions (for eval_to_text)
 library(rcellminer); nci60_exp <- rcellminer::getAllFeatureData(rcellminerData::molData)[["exp"]]; dim(nci60_exp)
 
 # Longer Code 
